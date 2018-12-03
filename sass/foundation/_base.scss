@@ -26,3 +26,7 @@ $lgFont: 3rem;
   height: $value;
   width: $value;
 }
+
+.subtitle, .name {
+  font-size: $mdFont;
+}

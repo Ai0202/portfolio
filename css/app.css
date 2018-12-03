@@ -55,6 +55,10 @@ body {
   padding: 2rem 5% 2rem 5%;
 }
 
+.subtitle, .name {
+  font-size: 2rem;
+}
+
 header {
   height: 60px;
   background-color: #000;
@@ -90,10 +94,6 @@ header .nav li:last-child {
   color: #fff;
 }
 
-.hoge .subtitle, .hoge .name {
-  font-size: 2rem;
-}
-
 .hoge h1 {
   font-size: 3rem;
   text-align: center;
@@ -107,10 +107,6 @@ header .nav li:last-child {
   background-color: #ddd;
 }
 
-.intro .subtitle {
-  font-size: 2rem;
-}
-
 .intro .profile > img {
   border-radius: 50%;
   height: 15rem;
@@ -121,6 +117,25 @@ header .nav li:last-child {
   font-size: 1rem;
   line-height: 1.5rem;
   text-align: center;
+}
+
+.portfolio .subtitle {
+  text-align: center;
+}
+
+.portfolio .list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio .list li {
+  padding: 2rem;
+}
+
+.portfolio .list li img {
+  height: 15rem;
+  width: 15rem;
 }
 
 /*# sourceMappingURL=app.css.map */
