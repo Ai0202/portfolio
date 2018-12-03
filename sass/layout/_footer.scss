@@ -1,0 +1,15 @@
+footer {
+  background-color: $baseBg;
+  color: $baseText;
+  .list {
+    display: flex;
+    justify-content: center;
+    li {
+      font-size: $smFont;
+      margin-right: 2rem;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

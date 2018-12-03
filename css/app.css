@@ -57,6 +57,26 @@ body {
 
 .subtitle, .name {
   font-size: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+footer .list {
+  display: flex;
+  justify-content: center;
+}
+
+footer .list li {
+  font-size: 1rem;
+  margin-right: 2rem;
+}
+
+footer .list li:last-child {
+  margin-right: 0;
 }
 
 header {
@@ -116,10 +136,6 @@ header .nav li:last-child {
 .intro .description {
   font-size: 1rem;
   line-height: 1.5rem;
-  text-align: center;
-}
-
-.portfolio .subtitle {
   text-align: center;
 }
 
