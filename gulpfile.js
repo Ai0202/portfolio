@@ -27,10 +27,10 @@ gulp.task('sass', function () {
 gulp.task('sass:watch', ['sass', 'browser-sync'], function () {
   let watcher = gulp.watch('./sass/**/*.scss', ['sass']);
   gulp.watch("./*.html", ['bs-reload']);
+  gulp.watch("./sass/**/*.scss", ['bs-reload']);
   watcher.on('change', function(event) {
     console.log('コンパイルOK!');
   });
-  gulp.watch("./scss/**/*.scss", ['bs-reload']);
 });
 
 
@@ -47,6 +47,7 @@ gulp.task('browser-sync', function() {
     }
   });
 });
+
 gulp.task('bs-reload', function() {
   browserSync.reload();
 })
