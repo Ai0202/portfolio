@@ -1,0 +1,21 @@
+.hoge {
+  background: {
+    image: url(../img/background.jpg);
+    repeat: no-repeat;
+    size: cover;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: $baseText;
+  .subtitle, .name {
+    font-size: $mdFont;
+  }
+  h1 {
+    font-size: $lgFont;
+    text-align: center;
+    line-height: $lgFont + 1rem;
+  }
+}
