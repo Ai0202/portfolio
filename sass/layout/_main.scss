@@ -19,3 +19,23 @@
     line-height: $lgFont + 1rem;
   }
 }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddd;
+  .subtitle {
+    font-size: $mdFont;
+  }
+  .profile {
+    > img {
+      @include circle(15rem);
+    }
+  }
+  .description {
+    font-size: $smFont;
+    line-height: $smFont + .5rem;
+    text-align: center;
+  }
+}

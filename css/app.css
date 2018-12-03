@@ -51,6 +51,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.container {
+  padding: 2rem 5% 2rem 5%;
+}
+
 header {
   height: 60px;
   background-color: #000;
@@ -94,6 +98,29 @@ header .nav li:last-child {
   font-size: 3rem;
   text-align: center;
   line-height: 4rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ddd;
+}
+
+.intro .subtitle {
+  font-size: 2rem;
+}
+
+.intro .profile > img {
+  border-radius: 50%;
+  height: 15rem;
+  width: 15rem;
+}
+
+.intro .description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=app.css.map */
