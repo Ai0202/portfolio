@@ -129,8 +129,7 @@ header .nav li:last-child {
 
 .intro .profile > img {
   border-radius: 50%;
-  height: 15rem;
-  width: 15rem;
+  width: 18rem;
 }
 
 .intro .description {

@@ -23,7 +23,6 @@ $lgFont: 3rem;
 
 @mixin circle($value) {
   border-radius: 50%;
-  height: $value;
   width: $value;
 }
 

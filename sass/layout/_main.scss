@@ -26,7 +26,7 @@
   background-color: #ddd;
   .profile {
     > img {
-      @include circle(15rem);
+      @include circle(18rem);
     }
   }
   .description {
