@@ -153,4 +153,14 @@ header .nav li:last-child {
   width: 15rem;
 }
 
+.skills .list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills .list li {
+  padding: 2rem;
+}
+
 /*# sourceMappingURL=app.css.map */
