@@ -3,6 +3,7 @@
     <header>
       <router-link to="/">Home</router-link>
       <router-link to="/skill">SKILL</router-link>
+      <router-link to="/portfolio">PORTFOLIO</router-link>
     </header>
     <router-view />
   </div>
