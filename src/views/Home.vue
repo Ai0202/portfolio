@@ -55,6 +55,7 @@
       .title {
         font-size: 3rem;
         letter-spacing: .1rem;
+        text-align: center;
       }
     } 
   }
