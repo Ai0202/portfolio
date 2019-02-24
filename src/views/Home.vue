@@ -7,13 +7,13 @@
     </div>
     <ul class="sns-links mt-l">
       <li>
-        <a href="">Github</a>
+        <a href="https://github.com/Ai0202">Github</a>
       </li>
       <li>
-        <a href="">Facebook</a>
+        <a href="https://web.facebook.com/atsushiikeda02">Facebook</a>
       </li>
       <li>
-        <a href="">Linkdin</a>
+        <a href="https://www.linkedin.com/in/atsushi-ikeda-412753170/">Linkdin</a>
       </li>
     </ul>
   </section>
