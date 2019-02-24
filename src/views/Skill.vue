@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="title mt-8">SKILL</h2>
+    <h2 class="title mt-l">SKILL</h2>
     <ul class="card-list">
       <li>
         <h3 class="label">PHP</h3>
@@ -99,7 +99,7 @@
     font-weight: bold;
   }
   .card-list {
-    padding: 8rem;
+    padding: 4rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

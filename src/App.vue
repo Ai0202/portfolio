@@ -64,8 +64,8 @@ table {
     font-family: 'Roboto', sans-serif;
   }
 
-  .mt-8 {
-    margin-top: 8rem;
+  .mt-l {
+    margin-top: 6rem;
   }
 
 </style>
