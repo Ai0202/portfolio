@@ -93,6 +93,10 @@
 </template>
 
 <style lang="scss" scoped>
+  * {
+    color: #707070;
+  }
+
   .title {
     text-align: center;
     font-size: 6rem;
