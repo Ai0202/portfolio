@@ -5,6 +5,17 @@
       <h1>ATSUSHI IKEDA</h1>
       <h2 class="title">FULL STACK WEB DEVELOPER</h2>
     </div>
+    <ul class="sns-links mt-l">
+      <li>
+        <a href="">Github</a>
+      </li>
+      <li>
+        <a href="">Facebook</a>
+      </li>
+      <li>
+        <a href="">Linkdin</a>
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -21,6 +32,7 @@
     position: relative;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: $textColor;
@@ -57,6 +69,20 @@
         letter-spacing: .1rem;
         text-align: center;
       }
-    } 
+    }
+    .sns-links {
+      font-size: 3rem;
+      display: flex;
+      li {
+        padding: 2rem;
+        margin-right: 20rem;
+        &:last-child {
+          margin-right: 0;
+        }
+        &:hover {
+          box-shadow: 0 2px 6px 0 #707070;
+        }
+      }
+    }
   }
 </style>

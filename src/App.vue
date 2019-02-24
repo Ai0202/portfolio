@@ -3,7 +3,7 @@
     <router-view />
     <nav>
       <router-link to="/">HOME</router-link>
-      <router-link to="/about">ABOUT</router-link>
+      <!-- <router-link to="/about">ABOUT</router-link> -->
       <router-link to="/skill">SKILL</router-link>
       <router-link to="/portfolio">PORTFOLIO</router-link>
     </nav>
@@ -51,6 +51,10 @@ q {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
 </style>
 
 <style lang="scss">
@@ -82,9 +86,5 @@ table {
     background-color: rgba(0, 0, 0, .5);
     font-size: 2rem;
     line-height: 6rem;
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
   }
 </style>

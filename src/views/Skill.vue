@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2 class="title mt-l">SKILL</h2>
     <ul class="card-list">
       <li>
@@ -88,7 +88,7 @@
       </li>
       
     </ul> 
-  </div>
+  </section>
  
 </template>
 

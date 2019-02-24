@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <section>
     <h2 class="title mt-l">PORTFOLIO</h2>
     <ul class="card-list">
       <li>
@@ -12,7 +12,7 @@
         </P>
       </li>
     </ul>
-  </div>  
+  </section>  
 </template>
 
 <style lang="scss" scoped>
