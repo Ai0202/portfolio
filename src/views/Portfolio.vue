@@ -3,7 +3,7 @@
     <h2 class="title mt-l">PORTFOLIO</h2>
     <ul class="card-list">
       <li>
-        <img src="../assets/logo.png" alt="">
+        <img src="../assets/portfolio/portfolio.jpg" alt="portfolio">
         <h3 class="name">PORTFLOLIO</h3>
         <P class="description">
           this website.<br>
