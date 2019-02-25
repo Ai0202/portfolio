@@ -65,7 +65,7 @@ a {
 
   html {
     font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bad Script', cursive;
   }
 
   .mt-l {
