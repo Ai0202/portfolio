@@ -73,15 +73,17 @@
     .sns-links {
       font-size: 3rem;
       display: flex;
+      justify-content: space-around;
+      text-align: center;
+      flex-wrap: wrap;
       li {
         padding: 2rem;
-        margin-right: 20rem;
-        &:last-child {
-          margin-right: 0;
-        }
         &:hover {
           box-shadow: 0 2px 6px 0 #707070;
         }
+      }
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
       }
     }
   }
