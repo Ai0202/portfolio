@@ -46,7 +46,7 @@
       <v-btn icon href="https://github.com/Ai0202">
         <v-icon>mdi-github-circle</v-icon>
       </v-btn>
-      <v-btn icon href="https://github.com/Ai0202">
+      <v-btn icon href="https://www.linkedin.com/in/atsushi-ikeda-412753170/">
         <v-icon>mdi-linkedin-box</v-icon>
       </v-btn>
     </v-app-bar>
