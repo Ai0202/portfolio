@@ -18,7 +18,4 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
-*.sw*
-
-# others
-memo.md
+*.sw?

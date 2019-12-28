@@ -1,90 +1,29 @@
 <template>
-  <div id="app">
-    <router-view />
-    <nav>
-      <router-link to="/">HOME</router-link>
-      <!-- <router-link to="/about">ABOUT</router-link> -->
-      <router-link to="/skill">SKILL</router-link>
-      <router-link to="/portfolio">PORTFOLIO</router-link>
-    </nav>
-  </div>
+  <v-app>
+    <v-header />
+    <v-container>
+      <h2 class="d-block text-center display-1">WORKS</h2>
+      <v-row>
+        <v-col xs="12" wrap v-for="n in 3" :key="n">
+          <v-work />
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-footer />
+  </v-app>
 </template>
 
-// reset css
-<style lang="scss">
-  /* 
-  reset
-*/
+<script>
+import VHeader from "@/components/Header";
+import VFooter from "@/components/Footer";
+import VWork from "@/components/Work";
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote {
-  &:before, &:after {
-    content: '';
-    content: none; } }
-
-q {
-  &:before, &:after {
-    content: '';
-    content: none; } }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-a {
-  color: #fff;
-  text-decoration: none; }
-</style>
-
-<style lang="scss">
-  
-  * {
-    box-sizing: border-box;
+export default {
+  name: "App",
+  components: {
+    VHeader,
+    VFooter,
+    VWork
   }
-
-  html {
-    font-size: 62.5%;
-    font-family: 'Bad Script', cursive;
-  }
-
-  .mt-l {
-    margin-top: 6rem;
-  }
-
-</style>
-
-
-<style lang="scss" scoped>
-  nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, .5);
-    font-size: 2rem;
-    line-height: 6rem;
-  }
-</style>
+};
+</script>
