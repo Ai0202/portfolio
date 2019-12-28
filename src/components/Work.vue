@@ -4,10 +4,7 @@
 
     <v-card-title>Product Name</v-card-title>
 
-    <v-card-subtitle>
-      language and FW:
-      <span class="font-weight-bold">PHP / Laravel</span>
-    </v-card-subtitle>
+    <v-card-subtitle class="primary--text">PHP / Laravel</v-card-subtitle>
 
     <v-card-text>description of product</v-card-text>
 
