@@ -142,13 +142,101 @@ export default {
 
 ```
 
+### フッター
+components/Footer.vue
+```js
+<template>
+  <v-footer absolute>
+    <v-col class="text-center" cols="12">
+      {{ new Date().getFullYear() }} —
+      <strong>Daaike</strong>
+    </v-col>
+  </v-footer>
+</template>
+```
+
+App.vue
+```js
+<template>
+  <v-app>
+    <v-header />
+    <v-footer />
+  </v-app>
+</template>
+
+<script>
+import VHeader from "@/components/Header";
+import VFooter from "@/components/Footer";
+
+export default {
+  name: "App",
+  components: {
+    VHeader,
+    VFooter
+  }
+};
+</script>
+```
+
+### Works (過去の作品)
+components/Work.vue
+```js
+<template>
+  <v-card>
+    <v-img src="https://placehold.jp/300x200.png" height="200px" aspect-ratio="1"></v-img>
+
+    <v-card-title>Product Name</v-card-title>
+
+    <v-card-subtitle>
+      language and FW:
+      <span class="font-weight-bold">PHP / Laravel</span>
+    </v-card-subtitle>
+
+    <v-card-text>description of product</v-card-text>
+
+    <v-card-actions>
+      <v-btn text color="accent">GitHub</v-btn>
+      <v-btn text color="accent">Product</v-btn>
+    </v-card-actions>
+  </v-card>
+</template>
+```
+
+App.vue
+```js
+<template>
+  <v-app>
+    <v-header />
+    <v-container>
+      <h2 class="d-block text-center display-1">WORKS</h2>
+      <v-row>
+        <v-col xs="12" wrap v-for="n in 3" :key="n">
+          <v-work />
+        </v-col>
+      </v-row>
+    </v-container>
+    <v-footer />
+  </v-app>
+</template>
+
+<script>
+import VHeader from "@/components/Header";
+import VFooter from "@/components/Footer";
+import VWork from "@/components/Work";
+
+export default {
+  name: "App",
+  components: {
+    VHeader,
+    VFooter,
+    VWork
+  }
+};
+</script>
+```
 ### メインビジュアル
 
 ### Skills
-
-### Works (過去の作品)
-
-### フッター
 
 
 ## ポートフォリオページの作成
