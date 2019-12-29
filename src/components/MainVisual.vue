@@ -13,7 +13,7 @@
   height: 100vh;
   background: {
     image: url("../img/paradise.jpg");
-    size: covor;
+    size: cover;
     repeat: no-repeat;
   }
   &::before {
