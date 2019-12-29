@@ -2,7 +2,7 @@
   <v-app>
     <v-header />
     <v-main-visual />
-    <v-about-me />
+    <v-about-me class="mt-6" />
     <v-container class="mt-6">
       <h2 class="d-block text-center display-1">WORKS</h2>
       <v-row class="justify-center mt-4">
