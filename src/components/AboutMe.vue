@@ -4,7 +4,7 @@
     <v-row justify="center" align="center" class="mt-4">
       <v-col cols="8" sm="6" class="text-center">
         <v-avatar size="200">
-          <v-img src="https://placehold.jp/100x100.png" alt="Atsushi"></v-img>
+          <v-img position="right" src="../img/profile_1.jpg" alt="Atsushi"></v-img>
         </v-avatar>
       </v-col>
       <v-col cols="8" sm="6" class="text-center text-sm-left">
