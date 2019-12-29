@@ -146,7 +146,7 @@ export default {
 components/Footer.vue
 ```js
 <template>
-  <v-footer absolute>
+  <v-footer>
     <v-col class="text-center" cols="12">
       {{ new Date().getFullYear() }} —
       <strong>Daaike</strong>
@@ -356,20 +356,39 @@ App.vueは作成したコンポーネントを読み込むのみ
 components/MainVisual.vue
 ```js
 <template>
-  <v-container>
-    <h2 class="d-block text-center display-1">ABOUT ME</h2>
-    <v-row justify="center" align="center" class="mt-4">
-      <v-col cols="8" sm="6" class="text-center">
-        <v-avatar size="200">
-          <v-img src="https://placehold.jp/100x100.png" alt="Atsushi"></v-img>
-        </v-avatar>
-      </v-col>
-      <v-col cols="8" sm="6" class="text-center text-sm-left">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus assumenda, facere perferendis molestiae illum quaerat, porro, magnam quo exercitationem corporis pariatur mollitia accusantium eum sequi dicta. Ipsum obcaecati a dignissimos?</p>
-      </v-col>
-    </v-row>
+  <v-container fluid class="pt-0 main d-flex align-center">
+    <div class="text-box">
+      <h2 class="display-2 py-2 white--text">Atsushi Ikeda</h2>
+      <h1 class="display-3 font-weight-bold py-2 primary--text">WEB DEVELOPER</h1>
+    </div>
   </v-container>
 </template>
+
+<style lang="scss" scoped>
+.main {
+  position: relative;
+  height: 100vh;
+  background: {
+    image: url("../img/paradise.jpg");
+    size: covor;
+    repeat: no-repeat;
+  }
+  &::before {
+    background-color: rgba(#000, 0.2);
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  > .text-box {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
 ```
 
 App.vueは作成したコンポーネントを読み込むのみ
