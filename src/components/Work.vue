@@ -1,12 +1,12 @@
 <template>
   <v-card>
-    <v-img src="https://placehold.jp/300x200.png" height="200px" aspect-ratio="1"></v-img>
+    <v-img :src="work.img" height="200px" aspect-ratio="1"></v-img>
 
-    <v-card-title>Product Name</v-card-title>
+    <v-card-title>{{ work.name }}</v-card-title>
 
-    <v-card-subtitle class="primary--text">PHP / Laravel</v-card-subtitle>
+    <v-card-subtitle class="primary--text">{{ work.lang }}</v-card-subtitle>
 
-    <v-card-text>description of product</v-card-text>
+    <v-card-text>{{ work.description }}</v-card-text>
 
     <v-card-actions>
       <v-btn text color="accent">GitHub</v-btn>
@@ -14,3 +14,11 @@
     </v-card-actions>
   </v-card>
 </template>
+
+<script>
+export default {
+  props: {
+    work: Object
+  }
+};
+</script>

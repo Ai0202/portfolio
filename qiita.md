@@ -393,6 +393,12 @@ components/MainVisual.vue
 
 App.vueは作成したコンポーネントを読み込むのみ
 
+
+## リファクタリング
+
+## アニメーションの追加
+
+
 ## ポートフォリオページの作成
 
 # Vue + Vuetifyで作成したポートフォリオサイトにFirebaseを加える
