@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-header />
+    <v-main-visual />
     <v-about-me />
     <v-container class="mt-6">
       <h2 class="d-block text-center display-1">WORKS</h2>
@@ -30,6 +31,7 @@ import VFooter from "@/components/Footer";
 import VAboutMe from "@/components/AboutMe";
 import VWork from "@/components/Work";
 import VSkill from "@/components/Skill";
+import VMainVisual from "@/components/MainVisual";
 
 export default {
   name: "App",
@@ -38,7 +40,8 @@ export default {
     VFooter,
     VAboutMe,
     VWork,
-    VSkill
+    VSkill,
+    VMainVisual
   },
   data: () => ({
     items: [

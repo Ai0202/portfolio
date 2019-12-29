@@ -37,7 +37,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar color="primary" dark app>
+    <v-app-bar color="transparent" dark app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>PORTFOLIO</v-toolbar-title>
 
