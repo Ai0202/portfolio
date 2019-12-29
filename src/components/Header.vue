@@ -37,7 +37,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar color="transparent" dark app>
+    <v-app-bar id="header" :color="headerColor" dark app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>PORTFOLIO</v-toolbar-title>
 
@@ -54,8 +54,15 @@
 </template>
 <script>
 export default {
+  props: {
+    headerColor: {
+      type: String,
+      default: "transparent"
+    }
+  },
   data: () => ({
-    drawer: null
+    drawer: null,
+    scrollY: 0
   })
 };
 </script>

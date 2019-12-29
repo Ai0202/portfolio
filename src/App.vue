@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-header />
-    <v-main-visual />
+    <v-header :headerColor="headerColor" />
+    <v-main-visual id="main" />
     <v-about-me class="mt-6" />
     <v-works class="mt-6" />
     <v-skills class="mt-6" />
@@ -26,6 +26,22 @@ export default {
     VWorks,
     VSkills,
     VMainVisual
+  },
+  data: () => ({
+    headerColor: "transparent"
+  }),
+  methods: {
+    changeHeaderColor: function() {
+      const mainHeight = document.querySelector("#main").offsetHeight;
+      const headerHeight = document.querySelector("#header").offsetHeight;
+      const targetHeight = mainHeight - headerHeight;
+
+      this.headerColor =
+        window.scrollY > targetHeight ? "primary" : "transparent";
+    }
+  },
+  mounted() {
+    window.addEventListener("scroll", this.changeHeaderColor);
   }
 };
 </script>
