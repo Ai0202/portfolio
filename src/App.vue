@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-header />
+    <v-about-me />
     <v-container class="mt-6">
       <h2 class="d-block text-center display-1">WORKS</h2>
       <v-row class="justify-center mt-4">
@@ -26,6 +27,7 @@
 <script>
 import VHeader from "@/components/Header";
 import VFooter from "@/components/Footer";
+import VAboutMe from "@/components/AboutMe";
 import VWork from "@/components/Work";
 import VSkill from "@/components/Skill";
 
@@ -34,6 +36,7 @@ export default {
   components: {
     VHeader,
     VFooter,
+    VAboutMe,
     VWork,
     VSkill
   },
