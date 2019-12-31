@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container v-scrollanimation>
     <h2 class="d-block text-center display-1">ABOUT ME</h2>
     <v-row justify="center" align="center" class="mt-4">
       <v-col cols="8" sm="6" class="text-center">
@@ -13,3 +13,16 @@
     </v-row>
   </v-container>
 </template>
+
+<style lang="scss" scoped>
+.before-enter {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease-out;
+}
+
+.enter {
+  opacity: 1;
+  transform: translateY(0px);
+}
+</style>
