@@ -12,7 +12,7 @@
         </v-list-item>
         <v-list-item link>
           <v-list-item-action>
-            <v-icon>mdi-home</v-icon>
+            <v-icon>mdi-account</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>ABOUT ME</v-list-item-title>
@@ -20,7 +20,7 @@
         </v-list-item>
         <v-list-item link>
           <v-list-item-action>
-            <v-icon>mdi-home</v-icon>
+            <v-icon>mdi-account-edit</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>SKILLS</v-list-item-title>
@@ -28,7 +28,7 @@
         </v-list-item>
         <v-list-item link>
           <v-list-item-action>
-            <v-icon>mdi-home</v-icon>
+            <v-icon>mdi-help-network</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>WORKS</v-list-item-title>
