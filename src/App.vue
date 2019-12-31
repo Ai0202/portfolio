@@ -3,8 +3,8 @@
     <v-header :headerColor="headerColor" />
     <v-main-visual id="main" />
     <v-about-me class="mt-6" />
-    <v-works class="mt-6" />
     <v-skills class="mt-6" />
+    <v-works class="mt-6" />
     <v-footer />
   </v-app>
 </template>
